@@ -383,9 +383,9 @@ article .icon {
 }
 
 .contact-info-upper-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: flex-start;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
