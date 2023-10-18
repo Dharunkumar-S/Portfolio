@@ -91,6 +91,14 @@
     grid-template-columns: 1fr;
   }
 
+  .article-container {
+    gap: 1rem;
+  }
+
+  .article-container img{
+    /* display: none; */
+  }
+
   .contact-info-container {
     margin: 0;
   }
@@ -140,7 +148,8 @@
   footer {
     margin-top: 8rem;
   }
-  #contact{
+
+  #contact {
     margin-top: 10rem;
   }
 }
